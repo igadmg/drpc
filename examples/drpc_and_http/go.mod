@@ -1,13 +1,15 @@
 module storj.io/drpc/examples/drpc_and_http
 
-go 1.19
+go 1.23.0
+
+toolchain go1.24.2
 
 require (
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	google.golang.org/protobuf v1.27.1
-	storj.io/drpc v0.0.17
+	golang.org/x/sync v0.12.0
+	google.golang.org/protobuf v1.36.6
+	storj.io/drpc v0.0.34
 )
 
-require github.com/zeebo/errs v1.2.2 // indirect
+require github.com/zeebo/errs v1.4.0 // indirect
 
 replace storj.io/drpc => ../..

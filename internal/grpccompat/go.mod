@@ -1,13 +1,15 @@
 module storj.io/drpc/internal/grpccompat
 
-go 1.19
+go 1.22
+
+toolchain go1.24.2
 
 require (
 	github.com/improbable-eng/grpc-web v0.15.0
-	github.com/zeebo/assert v1.3.0
-	github.com/zeebo/errs v1.2.2
+	github.com/zeebo/assert v1.3.1
+	github.com/zeebo/errs v1.4.0
 	google.golang.org/grpc v1.50.0
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.36.6
 	storj.io/drpc v0.0.0-00010101000000-000000000000
 )
 
