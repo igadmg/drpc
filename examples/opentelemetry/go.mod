@@ -4,6 +4,8 @@ go 1.22
 
 toolchain go1.24.2
 
+replace storj.io/drpc => ../..
+
 require (
 	go.opentelemetry.io/otel v1.10.0
 	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.10.0
@@ -19,5 +21,3 @@ require (
 	go.opentelemetry.io/otel/trace v1.10.0 // indirect
 	golang.org/x/sys v0.0.0-20210423185535-09eb48e85fd7 // indirect
 )
-
-replace storj.io/drpc => ../..

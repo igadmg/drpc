@@ -4,6 +4,8 @@ go 1.22
 
 toolchain go1.24.2
 
+replace storj.io/drpc => ../..
+
 require (
 	github.com/twitchtv/twirp v8.1.3+incompatible
 	github.com/zeebo/assert v1.3.1
@@ -16,5 +18,3 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/zeebo/errs v1.4.0 // indirect
 )
-
-replace storj.io/drpc => ../..

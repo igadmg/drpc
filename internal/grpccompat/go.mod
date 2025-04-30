@@ -4,6 +4,8 @@ go 1.22
 
 toolchain go1.24.2
 
+replace storj.io/drpc => ../..
+
 require (
 	github.com/improbable-eng/grpc-web v0.15.0
 	github.com/zeebo/assert v1.3.1
@@ -25,5 +27,3 @@ require (
 	google.golang.org/genproto v0.0.0-20210126160654-44e461bb6506 // indirect
 	nhooyr.io/websocket v1.8.7 // indirect
 )
-
-replace storj.io/drpc => ../..
