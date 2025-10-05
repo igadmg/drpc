@@ -9,7 +9,7 @@ replace storj.io/drpc => ../..
 require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	google.golang.org/grpc v1.36.0
-	google.golang.org/protobuf v1.36.9
+	google.golang.org/protobuf v1.36.10
 	storj.io/drpc v0.0.17
 )
 

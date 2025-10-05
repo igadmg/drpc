@@ -7,7 +7,7 @@ toolchain go1.24.2
 replace storj.io/drpc => ../../..
 
 require (
-	google.golang.org/protobuf v1.36.9
+	google.golang.org/protobuf v1.36.10
 	storj.io/drpc v0.0.34
 )
 

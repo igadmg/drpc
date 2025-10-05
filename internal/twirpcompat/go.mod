@@ -10,7 +10,7 @@ require (
 	github.com/twitchtv/twirp v8.1.3+incompatible
 	github.com/zeebo/assert v1.3.1
 	github.com/zeebo/hmux v0.3.1
-	google.golang.org/protobuf v1.36.9
+	google.golang.org/protobuf v1.36.10
 	storj.io/drpc v0.0.34
 )
 
