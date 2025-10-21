@@ -1,6 +1,6 @@
 module storj.io/drpc/examples/grpc_and_drpc
 
-go 1.23
+go 1.25
 
 toolchain go1.24.2
 
