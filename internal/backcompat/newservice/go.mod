@@ -2,8 +2,6 @@ module storj.io/drpc/internal/backcompat/newservice
 
 go 1.25
 
-toolchain go1.24.2
-
 replace (
 	storj.io/drpc => ../../..
 	storj.io/drpc/internal/backcompat => ../
